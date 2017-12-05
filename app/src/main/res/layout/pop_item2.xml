@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7f000000">
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="550px"
+        android:layout_height="323px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300px"
+        android:background="@drawable/shape_pop_you">
+
+        <TextView
+            android:id="@+id/pop_title"
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center|bottom"
+            android:textSize="16sp"
+            android:text="目前已有134381个话题"
+            android:textColor="#696969" />
+
+        <EditText
+            android:id="@+id/pop_edt"
+            android:layout_width="match_parent"
+            android:layout_height="133px"
+            android:background="@drawable/shape_pop_you"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_below="@+id/pop_title"
+            android:gravity="center"
+            android:hint="创建话题"
+            android:maxLength="7"
+            android:textCursorDrawable="@null"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/pop_v"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/pop_edt"
+            android:background="#BFBFBF" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110px"
+            android:layout_below="@+id/pop_v"
+            android:background="@drawable/shape_pop_you">
+
+
+            <TextView
+                android:id="@+id/pop_cancael"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_pop_you"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/colorblack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/pop_ok"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_pop_you"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="@color/colorblack"
+                android:textSize="16sp" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.0.1.aar\\0b2f48e789f742dcdcafc904f4e574b8\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\drawable-v21\\touch_bg.xml",
+        "source": "E:\\Android\\uikit\\res\\drawable-v21\\touch_bg.xml"
+    }
+]

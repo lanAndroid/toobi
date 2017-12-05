@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/opic_img"
+        android:layout_width="110px"
+        android:layout_height="110px"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10px"
+        android:layout_marginLeft="27px"
+        android:layout_marginRight="27px"
+        android:layout_marginTop="10px"
+        android:scaleType="fitXY" />
+
+
+    <TextView
+        android:id="@+id/oic_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/opic_img"
+        android:text="aaaaaa"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/opic_mes"
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="27px"
+        android:src="@drawable/tb27"
+        android:visibility="gone" />
+</com.zhy.autolayout.AutoRelativeLayout>

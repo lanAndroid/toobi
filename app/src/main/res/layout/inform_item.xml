@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/room_pic1"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/room_suo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/room_pic1"
+        android:layout_alignTop="@+id/room_pic1"
+       android:layout_margin="20px"
+        android:src="@drawable/tb18" />
+
+
+    <TextView
+        android:id="@+id/room_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="63px"
+        android:layout_alignBottom="@+id/room_pic1"
+        android:layout_alignLeft="@+id/room_pic1"
+        android:layout_alignRight="@+id/room_pic1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/text_bj"
+
+        android:gravity="center"
+        android:maxLength="7"
+        android:text="aaa哎"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/auto_re_ll"
+    android:background="@drawable/toobi">
+
+    <ImageView
+        android:id="@+id/toobi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160px"
+        android:src="@drawable/tb29" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="600px"
+        android:layout_height="110px"
+        android:layout_above="@+id/psw"
+        android:layout_alignLeft="@+id/psw"
+        android:layout_alignStart="@+id/psw"
+        android:background="@null"
+        android:digits="1234567890"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center|bottom"
+        android:hint="@string/iphonename"
+        android:maxLength="11"
+        android:maxLines="1"
+        android:textColor="@color/colorwhite"
+        android:textColorHint="@color/colorwhite"
+        android:textCursorDrawable="@null"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="600px"
+        android:layout_height="2px"
+        android:layout_below="@+id/phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5px"
+        android:background="@color/colorwhite" />
+
+    <EditText
+        android:id="@+id/psw"
+        android:layout_width="600px"
+        android:layout_height="110px"
+        android:layout_above="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80px"
+        android:background="@null"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center|bottom"
+        android:hint="@string/psw"
+        android:maxLines="1"
+        android:password="true"
+        android:textColor="@color/colorwhite"
+        android:textColorHint="@color/colorwhite"
+        android:textCursorDrawable="@null"
+        android:textSize="18sp" />
+
+
+
+    <View
+        android:layout_width="600px"
+        android:layout_height="2px"
+        android:layout_above="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76px"
+        android:layout_marginTop="5px"
+        android:background="@color/colorwhite" />
+
+    <ImageView
+        android:id="@+id/login"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/phone"
+        android:layout_alignStart="@+id/phone"
+        android:layout_centerVertical="true"
+        android:src="@drawable/tb31" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40px">
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/login"
+
+
+            android:layout_marginRight="20px"
+            android:text="免费注册"
+            android:textColor="@color/colorwhite"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/findpsw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/login"
+            android:layout_below="@+id/login"
+            android:layout_marginLeft="20px"
+            android:text="找回密码"
+            android:textColor="@color/colorwhite"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/register_Weixin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="165px"
+        android:src="@drawable/tb33"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/xieyi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50px"
+        android:text="注册默认同意《图彼用户协议》"
+        android:textSize="11.26sp" />
+</com.zhy.autolayout.AutoRelativeLayout>

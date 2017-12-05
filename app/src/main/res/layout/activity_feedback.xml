@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB"
+    tools:context="com.toobi.toobi.ui.personage.view.FeedbackActivity">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/feedback_ll"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@color/colorwhite">
+
+        <ImageView
+            android:id="@+id/feedback_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20px"
+            android:src="@drawable/tb22" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="意见反馈"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+    <EditText
+        android:id="@+id/feedback_edt"
+        android:layout_width="match_parent"
+        android:layout_height="460px"
+        android:layout_below="@+id/feedback_ll"
+        android:layout_marginTop="2px"
+        android:background="@color/white"
+        android:gravity="left"
+        android:hint="你想说的"
+        android:maxLength="300"
+        android:paddingLeft="40px"
+        android:paddingTop="10px"
+        android:textColor="@color/black"
+        android:textColorHint="#696969"
+        android:textCursorDrawable="@color/color_eb"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/feedback_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feedback_edt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:src="@drawable/btn" />
+</com.zhy.autolayout.AutoRelativeLayout>

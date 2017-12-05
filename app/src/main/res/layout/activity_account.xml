@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toobi"
+    tools:context="com.tubi.tubi.ui.register.view.AccountActivity">
+
+    <ImageView
+        android:id="@+id/account_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="70px"
+        android:src="@drawable/tb36" />
+
+    <ImageView
+        android:id="@+id/account_img"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150px"
+        android:src="@drawable/tb4" />
+
+    <RadioGroup
+        android:id="@+id/account_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60px"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/nan"
+            android:layout_width="0dp"
+            android:layout_height="113px"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableRight="@drawable/account_check"
+            android:paddingRight="85px" />
+
+        <RadioButton
+            android:id="@+id/nv"
+            android:layout_width="0dp"
+            android:layout_height="113px"
+            android:layout_weight="1"
+            android:button="@null"
+
+            android:drawableLeft="@drawable/account_sex_check"
+            android:paddingLeft="85px" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/account_name"
+        android:layout_width="600px"
+        android:layout_height="110px"
+        android:layout_above="@+id/account_age"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:gravity="center|bottom"
+        android:hint="昵称"
+        android:maxLength="6"
+        android:maxLines="1"
+        android:textColor="@color/colorwhite"
+        android:textColorHint="@color/colorwhite"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="600px"
+        android:layout_height="2px"
+        android:layout_below="@+id/account_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5px"
+        android:background="@color/colorwhite" />
+
+
+    <EditText
+        android:id="@+id/account_age"
+        android:layout_width="600px"
+        android:layout_height="110px"
+        android:layout_above="@+id/account_v"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:digits="1234567890"
+        android:gravity="center|bottom"
+        android:hint="年龄"
+        android:maxLength="2"
+        android:maxLines="1"
+        android:textColor="@color/colorwhite"
+        android:textColorHint="@color/colorwhite"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/account_v"
+        android:layout_width="600px"
+        android:layout_height="2px"
+        android:layout_above="@+id/account_ok"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78px"
+        android:layout_marginTop="5px"
+        android:background="@color/colorwhite" />
+
+    <ImageView
+        android:id="@+id/account_ok"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="400px"
+        android:src="@drawable/tb30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50px"
+        android:text="美好清晰的头像可以让自己更出彩"
+        android:textSize="11.26sp" />
+</com.zhy.autolayout.AutoRelativeLayout>

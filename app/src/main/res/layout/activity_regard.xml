@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/auto_feed_ll"
+    android:background="#EBEBEB">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/regard_ll"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@color/colorwhite">
+
+        <ImageView
+            android:id="@+id/regard_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35px"
+            android:src="@drawable/tb22" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="关于图彼"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <ImageView
+        android:id="@+id/regard_toobi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regard_ll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:src="@drawable/tb28" />
+
+    <TextView
+        android:id="@+id/regard_banben"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regard_toobi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20px"
+        android:text="版本 1.1.1" />
+
+    <TextView
+        android:id="@+id/regard_cencal"
+        android:layout_width="match_parent"
+        android:layout_height="93px"
+        android:layout_marginTop="343px"
+        android:background="@color/colorwhite"
+        android:gravity="center_vertical"
+        android:paddingLeft="32px"
+        android:text="清理缓存"
+        android:textColor="@color/colorblack" />
+
+    <TextView
+        android:id="@+id/regard_versions"
+        android:layout_width="match_parent"
+        android:layout_height="93px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/regard_cencal"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorwhite"
+        android:gravity="center_vertical"
+        android:paddingLeft="32px"
+        android:text="版本"
+        android:textColor="@color/colorblack" />
+
+    <TextView
+        android:id="@+id/regard_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="93px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/regard_versions"
+        android:background="@color/colorwhite"
+        android:gravity="center_vertical"
+        android:paddingLeft="32px"
+        android:layout_marginTop="2px"
+        android:text="意见反馈"
+        android:textColor="@color/colorblack" />
+
+    <TextView
+        android:id="@+id/regard_protocol"
+        android:layout_width="match_parent"
+        android:layout_height="93px"
+        android:layout_below="@+id/regard_feedback"
+        android:layout_marginTop="2px"
+        android:background="@color/colorwhite"
+        android:gravity="center_vertical"
+        android:paddingLeft="32px"
+        android:text="用户协议"
+        android:textColor="@color/colorblack" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50px"
+        android:src="@drawable/tb59" />
+</com.zhy.autolayout.AutoRelativeLayout>

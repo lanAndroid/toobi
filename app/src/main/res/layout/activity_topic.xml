@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_eb"
+    tools:context="com.toobi.toobi.ui.personage.view.TopicActivity">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/auto_fan_ll"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@color/colorwhite">
+
+        <ImageView
+            android:id="@+id/topic_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20px"
+            android:src="@drawable/tb22" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的话题"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/topic_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/auto_fan_ll"
+        android:layout_marginTop="2px"></android.support.v7.widget.RecyclerView>
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7f000000"
+    android:id="@+id/img_Auto_ll"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_da"
+        android:layout_width="768px"
+        android:layout_height="768px"
+        android:layout_centerInParent="true" />
+</com.zhy.autolayout.AutoRelativeLayout>

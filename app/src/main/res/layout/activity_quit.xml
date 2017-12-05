@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quit_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toobi"
+    tools:context="com.toobi.toobi.ui.personage.view.QuitActivity">
+
+
+    <ImageView
+        android:id="@+id/quit_img"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120px"
+        android:scaleType="fitXY"
+        android:src="@drawable/tb5" />
+
+    <EditText
+        android:id="@+id/quit_psw"
+        android:layout_width="600px"
+        android:layout_height="110px"
+        android:layout_above="@+id/quit_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80px"
+        android:background="@null"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center|bottom"
+        android:hint="@string/psw"
+        android:maxLines="1"
+        android:password="true"
+        android:textColor="@color/colorwhite"
+        android:textColorHint="@color/colorwhite"
+        android:textCursorDrawable="@null"
+        android:textSize="18sp" />
+
+
+    <View
+        android:layout_width="600px"
+        android:layout_height="2px"
+        android:layout_above="@+id/quit_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76px"
+        android:layout_marginTop="5px"
+        android:background="@color/colorwhite" />
+
+    <ImageView
+        android:id="@+id/quit_login"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/tb31" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quit_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40px">
+
+        <TextView
+            android:id="@+id/quit_zhuce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/login"
+
+
+            android:layout_marginRight="20px"
+            android:text="免费注册"
+            android:textColor="@color/colorwhite"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/quit_zhaohui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/login"
+            android:layout_below="@+id/login"
+            android:layout_marginLeft="20px"
+            android:text="找回密码"
+            android:textColor="@color/colorwhite"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/quit_Weixin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="165px"
+        android:src="@drawable/tb33"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/quit_xieyi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50px"
+        android:text="注册默认同意《图彼用户协议》"
+        android:textSize="11.26sp" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

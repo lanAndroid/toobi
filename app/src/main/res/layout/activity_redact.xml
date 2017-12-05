@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auto_ll_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/redact_atr1"
+        android:layout_width="match_parent"
+        android:layout_height="110px"
+        android:background="@color/colorwhite">
+
+        <ImageView
+            android:id="@+id/redact_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32px"
+            android:layout_marginTop="30px"
+            android:src="@drawable/tb22" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="个人设置"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/redact_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="27px"
+            android:background="@color/colorwhite"
+            android:text="确定"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/redact_atr2"
+        android:layout_width="match_parent"
+        android:layout_height="187px"
+        android:layout_below="@+id/redact_atr1"
+        android:layout_marginTop="2px"
+        android:background="@color/colorwhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32px"
+            android:text="头像"
+            android:textColor="@color/colorblack"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/redact_img"
+            android:layout_width="144px"
+            android:layout_height="144px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="32px"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/redact_atr3"
+        android:layout_width="match_parent"
+        android:layout_height="93px"
+        android:layout_below="@+id/redact_atr2"
+        android:layout_marginTop="2px"
+
+        android:background="@color/colorwhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32px"
+            android:text="姓名"
+            android:textColor="@color/colorblack"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/redact_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="32px"
+            android:background="@color/colorwhite"
+            android:gravity="center_vertical|right"
+            android:text="任伟"
+            android:textColorHint="@color/black"
+            android:textSize="16sp" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/redact_atr4"
+        android:layout_width="match_parent"
+        android:layout_height="93px"
+        android:layout_below="@+id/redact_atr3"
+        android:layout_marginTop="2px"
+        android:background="@color/colorwhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32px"
+            android:gravity="center"
+            android:text="性别"
+            android:textColor="@color/colorblack"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/redact_sex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="32px"
+            android:background="@color/colorwhite"
+            android:gravity="center_vertical|right"
+            android:text="男"
+            android:textColorHint="@color/black" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/redact_atr5"
+        android:layout_width="match_parent"
+        android:layout_height="93px"
+        android:layout_below="@+id/redact_atr4"
+        android:layout_marginTop="2px"
+        android:background="@color/colorwhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32px"
+            android:gravity="center"
+            android:text="年龄"
+            android:textColor="@color/colorblack"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/redact_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="32px"
+            android:background="@color/colorwhite"
+            android:digits="0123456789"
+            android:gravity="center_vertical|right"
+            android:maxLength="2"
+            android:text="25"
+            android:textColorHint="@color/black"
+            android:textSize="16sp" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/redact_atr6"
+        android:layout_width="match_parent"
+        android:layout_height="93px"
+        android:layout_below="@+id/redact_atr5"
+        android:layout_marginTop="2px"
+        android:background="@color/colorwhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32px"
+            android:gravity="center"
+            android:text="签名"
+            android:textColor="@color/colorblack"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/redact_sign"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="32px"
+            android:background="@color/colorwhite"
+            android:gravity="center_vertical|right"
+            android:text="化简为繁"
+            android:textColorHint="@color/black"
+            android:textSize="16sp" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/redact_atr7"
+        android:layout_width="match_parent"
+        android:layout_height="93px"
+        android:layout_below="@+id/redact_atr6"
+        android:layout_marginTop="2px"
+        android:background="@color/colorwhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32px"
+            android:text="账户"
+            android:textColor="@color/colorblack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/redact_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="32px"
+            android:background="@color/colorwhite"
+            android:text="1111111111111"
+            android:textSize="16sp" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/redact_atr8"
+        android:layout_width="match_parent"
+        android:layout_height="93px"
+        android:layout_below="@+id/redact_atr7"
+        android:layout_marginTop="20px"
+        android:background="@color/colorwhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32px"
+            android:text="退出"
+            android:textColor="@color/colorblack" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

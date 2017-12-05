@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auto_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB">
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/home_ll"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@color/colorwhite">
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/tb6" />
+
+        <ImageView
+            android:id="@+id/found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="22px"
+            android:src="@drawable/tb7" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/home_view"
+        android:layout_below="@+id/home_ll">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/home_view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@+id/bottomNavigationBar"
+        android:background="@color/color_eb" />
+
+    <RadioGroup
+        android:id="@+id/bottomNavigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="110px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorwhite"
+        android:orientation="horizontal">
+
+        <com.toobi.toobi.utils.view.DrawableCenterRadioButton
+            android:id="@+id/inform"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:button="@null"
+            android:drawableLeft="@drawable/home_check1"></com.toobi.toobi.utils.view.DrawableCenterRadioButton>
+
+
+        <com.toobi.toobi.utils.view.DrawableCenterRadioButton
+            android:id="@+id/establish"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:button="@null"
+            android:checked="true"
+            android:drawableLeft="@drawable/home_check2" />
+
+
+        <com.toobi.toobi.utils.view.DrawableCenterRadioButton
+            android:id="@+id/person"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:button="@null"
+            android:visibility="gone"
+            android:drawableLeft="@drawable/home_check3"
+            android:gravity="center" />
+
+        <com.toobi.toobi.utils.view.DrawableCenterRadioButton
+            android:id="@+id/person_nv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:button="@null"
+            android:visibility="visible"
+            android:drawableLeft="@drawable/home_check4"
+            android:gravity="center" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110px"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_weight="1"
+            android:src="@drawable/tb27"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/home_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="60px"
+            android:layout_weight="1"
+            android:src="@drawable/cyuan"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_weight="1"
+            android:src="@drawable/tb27"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_weight="1"
+            android:src="@drawable/tb27"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_weight="1"
+            android:src="@drawable/tb27"
+            android:visibility="invisible" />
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/tb27"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/tb27"
+            android:visibility="invisible" />
+    </LinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toobi"
+>
+
+
+    <ImageView
+        android:id="@+id/regt_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="70px"
+        android:src="@drawable/tb36" />
+
+
+    <EditText
+        android:id="@+id/regt_phone"
+        android:layout_width="600px"
+        android:layout_height="110px"
+        android:layout_above="@+id/regt_ll"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:digits="1234567890"
+        android:gravity="center|bottom"
+        android:hint="您的手机号码"
+        android:maxLength="11"
+        android:maxLines="1"
+        android:textColor="@color/colorwhite"
+        android:textColorHint="@color/colorwhite"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="600px"
+        android:layout_height="2px"
+        android:layout_below="@+id/regt_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5px"
+        android:background="@color/colorwhite" />
+
+    <LinearLayout
+        android:id="@+id/regt_ll"
+        android:layout_width="600px"
+        android:layout_height="110px"
+        android:layout_above="@+id/regt_psw"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/regt_yzm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:background="@null"
+            android:digits="1234567890"
+            android:gravity="center|bottom"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:textColor="@color/colorwhite" />
+
+        <TextView
+            android:id="@+id/regt_send"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:text="获取验证码"
+            android:textColor="@color/colorwhite"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="600px"
+        android:layout_height="2px"
+        android:layout_below="@+id/regt_ll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5px"
+        android:background="@color/colorwhite" />
+
+    <EditText
+        android:id="@+id/regt_psw"
+        android:layout_width="600px"
+        android:layout_height="110px"
+        android:layout_above="@+id/rgt_v"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:gravity="center|bottom"
+        android:hint="设置密码"
+        android:password="true"
+        android:maxLength="11"
+        android:maxLines="1"
+        android:textColor="@color/colorwhite"
+        android:textColorHint="@color/colorwhite"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/rgt_v"
+        android:layout_width="600px"
+        android:layout_height="2px"
+        android:layout_above="@+id/regt_below"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78px"
+        android:layout_marginTop="5px"
+        android:background="@color/colorwhite" />
+
+    <ImageView
+        android:id="@+id/regt_below"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="600px"
+        android:src="@drawable/tb32" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50px"
+        android:text="图彼不会给任何人泄漏您的手机号"
+        android:textSize="11.26sp" />
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\design_error.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.0.1.aar\\0b2f48e789f742dcdcafc904f4e574b8\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.0.1.aar\\0b2f48e789f742dcdcafc904f4e574b8\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\color_green_text_view_selector.xml",
+        "source": "E:\\Android\\uikit\\res\\color\\color_green_text_view_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\color_picker_preview_selector.xml",
+        "source": "E:\\Android\\uikit\\res\\color\\color_picker_preview_selector.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "E:\\Android\\uikit\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Rampant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\74520c8d0347c14bac46b902457aa304\\res\\color\\abc_tint_spinner.xml"
+    }
+]

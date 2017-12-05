@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB"
+  >
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/conver_tab"
+        android:layout_width="match_parent"
+        android:layout_height="94px"
+        android:layout_marginTop="2px"
+        android:background="@color/colorwhite"
+        app:tabIndicatorHeight="3px"
+        app:tabIndicatorColor="@color/colorblack"></android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/conver_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/conver_tab"></android.support.v4.view.ViewPager>
+</com.zhy.autolayout.AutoRelativeLayout>
